@@ -5,3 +5,9 @@ def x(request):
 		"msg": "Hello World!"
 	}
 	return render(request, "x.html", context)
+
+def r(request):
+	context = {
+		"msg":"Hello World!"
+	}
+	return render(request,"hello.html",context)
